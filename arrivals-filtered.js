@@ -19,7 +19,7 @@ for ( num; num < flights.length; num++ ) {
         }
 
         // display the flight details
-        displayFlight( flights[num] );
+        appendFlight( flights[num] );
 
     }
 

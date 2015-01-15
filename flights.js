@@ -49,7 +49,7 @@ var flights = [
     }
 ];
 
-function displayFlight( flight ) {
+function appendFlight( flight ) {
     var render = _.template( $( '#arrival-template' ).html() );
     flight.arrivalTime = ( moment.isMoment( flight.arrivalTime )) ? flight.arrivalTime.format( "HH:mm" ) : flight.arrivalTime;
     $( 'table#arrivals tbody' ).append( render( { flight: flight } ));
