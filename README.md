@@ -1,3 +1,3 @@
 # Flight Simulator Javascript Lesson
 
-A small project for teaching web some basic javascript
+A small project for teaching some basic javascript
