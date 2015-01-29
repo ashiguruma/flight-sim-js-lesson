@@ -1,5 +1,5 @@
 // set the cut off time for displaying flights
-var cutOffTime = moment( "10:30", "HH:mm" );
+var cutOffTime = moment( "10:00", "HH:mm" );
 
 // create a counter;
 var num = 0;

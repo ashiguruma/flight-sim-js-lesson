@@ -49,6 +49,11 @@ var flights = [
     }
 ];
 
+
+// --------------------------------------------------------------
+// Some useful stuff below that you don't need to worry about yet
+// --------------------------------------------------------------
+
 function appendFlight( flight ) {
     var render = _.template( $( '#arrival-template' ).html() );
     flight.arrivalTime = ( moment.isMoment( flight.arrivalTime )) ? flight.arrivalTime.format( "HH:mm" ) : flight.arrivalTime;
